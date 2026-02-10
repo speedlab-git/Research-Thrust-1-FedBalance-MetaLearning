@@ -1,0 +1,105 @@
+{
+  "os": "Linux-5.15.0-1072-nvidia-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.0",
+  "startedAt": "2026-02-09T19:51:27.600027Z",
+  "args": [
+    "--train_dir",
+    "/mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/ucf-crime-dataset/Train",
+    "--test_dir",
+    "/mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/ucf-crime-dataset/Test",
+    "--num_clients",
+    "5",
+    "--rounds",
+    "100",
+    "--local_epochs",
+    "1",
+    "--batch_size",
+    "64",
+    "--use_wandb",
+    "--lr",
+    "3e-4"
+  ],
+  "program": "/mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/Research-Thrust-1-FedBalance-MetaLearning/fcrimnet.py",
+  "codePath": "fcrimnet.py",
+  "codePathLocal": "fcrimnet.py",
+  "git": {
+    "remote": "https://github.com/speedlab-git/Research-Thrust-1-FedBalance-MetaLearning.git"
+  },
+  "email": "zarifh493@gmail.com",
+  "root": "/mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/Research-Thrust-1-FedBalance-MetaLearning",
+  "host": "dgx1",
+  "executable": "/mnt/beegfs/home/mdzarifhossa2025/miniconda3/envs/fat/bin/python",
+  "cpu_count": 112,
+  "cpu_count_logical": 224,
+  "gpu": "NVIDIA H200",
+  "gpu_count": 8,
+  "disk": {
+    "/": {
+      "total": "1888425144320",
+      "used": "1451994927104"
+    }
+  },
+  "memory": {
+    "total": "2164194086912"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-53b3aca1-5053-fbf7-c7ce-9f18a383b1da"
+    },
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-28163f66-31b8-38c6-54ec-19e728f02128"
+    },
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-e6fb388f-feb2-6263-8368-9cf62d814334"
+    },
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-9539aab1-a1a4-6c51-0049-dcd22357be01"
+    },
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-f415e5e4-e79e-b5df-1102-3517d9a81034"
+    },
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-6e5b9340-b936-2e96-8549-47cacaef4c96"
+    },
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-fb7179af-b728-554d-20ee-dfdc1ad15d4d"
+    },
+    {
+      "name": "NVIDIA H200",
+      "memoryTotal": "150754820096",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-1ba66468-6f26-3090-da58-8537801045cf"
+    }
+  ],
+  "cudaVersion": "12.4",
+  "writerId": "ab901d255l4i8b3qzlyzm8xax8n3s1qv"
+}

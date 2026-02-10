@@ -1,0 +1,185 @@
+{
+    "config": {
+        "train_dir": "/mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/ucf-crime-dataset/Train",
+        "test_dir": "/mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/ucf-crime-dataset/Test",
+        "img_size": 224,
+        "batch_size": 64,
+        "mu": 2,
+        "lr": 0.0003,
+        "momentum": 0.9,
+        "weight_decay": 0.0001,
+        "rounds": 20,
+        "local_epochs": 1,
+        "num_clients": 5,
+        "num_classes": 14,
+        "seed": 12,
+        "num_workers": 4,
+        "labeled_frac": 0.2,
+        "lambda_u": 1.0,
+        "tau": 0.9,
+        "freeze_backbone": false,
+        "out_json": "results_fixmatch_fedavg_ucfcrime.json"
+    },
+    "rounds": {
+        "round_1": {
+            "loss_supervised": 2.5450435881633835,
+            "loss_unlabeled": 0.0,
+            "loss_total": 2.5450435881633835,
+            "macro_f1": 0.10210266333994474,
+            "macro_auc": 0.6364745167184319,
+            "elapsed_time_sec": 217.8232023715973
+        },
+        "round_2": {
+            "loss_supervised": 2.249345133965274,
+            "loss_unlabeled": 0.03517946406318077,
+            "loss_total": 2.2845245981790936,
+            "macro_f1": 0.1454552127732025,
+            "macro_auc": 0.6503781643732297,
+            "elapsed_time_sec": 426.61552596092224
+        },
+        "round_3": {
+            "loss_supervised": 1.9464287831601368,
+            "loss_unlabeled": 0.0821001558926889,
+            "loss_total": 2.028528938714759,
+            "macro_f1": 0.15655496567826516,
+            "macro_auc": 0.6519638809593806,
+            "elapsed_time_sec": 655.7992372512817
+        },
+        "round_4": {
+            "loss_supervised": 1.6761046445992096,
+            "loss_unlabeled": 0.06157814625177495,
+            "loss_total": 1.7376827893965694,
+            "macro_f1": 0.16008785067040934,
+            "macro_auc": 0.663859758297024,
+            "elapsed_time_sec": 882.2234506607056
+        },
+        "round_5": {
+            "loss_supervised": 1.4783658248832425,
+            "loss_unlabeled": 0.10769441451738966,
+            "loss_total": 1.5860602370227677,
+            "macro_f1": 0.14311268461909452,
+            "macro_auc": 0.667863161943164,
+            "elapsed_time_sec": 1166.4408886432648
+        },
+        "round_6": {
+            "loss_supervised": 1.3100082720139898,
+            "loss_unlabeled": 0.11833769991230894,
+            "loss_total": 1.428345972419264,
+            "macro_f1": 0.153844290285745,
+            "macro_auc": 0.6857093493162655,
+            "elapsed_time_sec": 1394.5809786319733
+        },
+        "round_7": {
+            "loss_supervised": 1.1637737570996265,
+            "loss_unlabeled": 0.1051894177821087,
+            "loss_total": 1.2689631740252176,
+            "macro_f1": 0.1513411267713634,
+            "macro_auc": 0.6824601131748497,
+            "elapsed_time_sec": 1783.0112504959106
+        },
+        "round_8": {
+            "loss_supervised": 1.036171571222175,
+            "loss_unlabeled": 0.12434405044289717,
+            "loss_total": 1.1605156212925434,
+            "macro_f1": 0.14722652450595927,
+            "macro_auc": 0.6815361796402263,
+            "elapsed_time_sec": 2177.139427423477
+        },
+        "round_9": {
+            "loss_supervised": 0.9182348954629707,
+            "loss_unlabeled": 0.13514966772771983,
+            "loss_total": 1.053384563673931,
+            "macro_f1": 0.1480119070862894,
+            "macro_auc": 0.6825519810212601,
+            "elapsed_time_sec": 2570.266404390335
+        },
+        "round_10": {
+            "loss_supervised": 0.8171610684040559,
+            "loss_unlabeled": 0.143666133838126,
+            "loss_total": 0.9608272023469089,
+            "macro_f1": 0.1536560160384539,
+            "macro_auc": 0.6833311359153227,
+            "elapsed_time_sec": 2964.12068772316
+        },
+        "round_11": {
+            "loss_supervised": 0.7266538737050021,
+            "loss_unlabeled": 0.15299719180687363,
+            "loss_total": 0.8796510659068464,
+            "macro_f1": 0.1566305099818402,
+            "macro_auc": 0.683979995324875,
+            "elapsed_time_sec": 3357.8064906597137
+        },
+        "round_12": {
+            "loss_supervised": 0.6505274161516901,
+            "loss_unlabeled": 0.16328472362524535,
+            "loss_total": 0.8138121395225986,
+            "macro_f1": 0.1591640548115684,
+            "macro_auc": 0.6861980129433572,
+            "elapsed_time_sec": 3750.842670440674
+        },
+        "round_13": {
+            "loss_supervised": 0.5794278079486755,
+            "loss_unlabeled": 0.17159963414132837,
+            "loss_total": 0.7510274424849743,
+            "macro_f1": 0.1579379529203752,
+            "macro_auc": 0.6895894739384298,
+            "elapsed_time_sec": 4054.025179386139
+        },
+        "round_14": {
+            "loss_supervised": 0.5207131502379375,
+            "loss_unlabeled": 0.17521605004208635,
+            "loss_total": 0.6959292005104234,
+            "macro_f1": 0.15988245610158,
+            "macro_auc": 0.6867709017259688,
+            "elapsed_time_sec": 4278.984819889069
+        },
+        "round_15": {
+            "loss_supervised": 0.46785368997169796,
+            "loss_unlabeled": 0.17926244370070807,
+            "loss_total": 0.6471161333193262,
+            "macro_f1": 0.15892270592294871,
+            "macro_auc": 0.6828118763441433,
+            "elapsed_time_sec": 4505.461985349655
+        },
+        "round_16": {
+            "loss_supervised": 0.4221052381288574,
+            "loss_unlabeled": 0.18343693933273894,
+            "loss_total": 0.6055421767703979,
+            "macro_f1": 0.16124416247628698,
+            "macro_auc": 0.6836037404572869,
+            "elapsed_time_sec": 4731.427896499634
+        },
+        "round_17": {
+            "loss_supervised": 0.38198065078521826,
+            "loss_unlabeled": 0.18606706358881359,
+            "loss_total": 0.568047714628369,
+            "macro_f1": 0.160840113478687,
+            "macro_auc": 0.6839937852255307,
+            "elapsed_time_sec": 4957.454881191254
+        },
+        "round_18": {
+            "loss_supervised": 0.35031997063552517,
+            "loss_unlabeled": 0.1836638299456562,
+            "loss_total": 0.5339838013352161,
+            "macro_f1": 0.1625231319682939,
+            "macro_auc": 0.6836442644871001,
+            "elapsed_time_sec": 5183.959747552872
+        },
+        "round_19": {
+            "loss_supervised": 0.31717559749402674,
+            "loss_unlabeled": 0.18674519488730104,
+            "loss_total": 0.5039207922287255,
+            "macro_f1": 0.16015551017527807,
+            "macro_auc": 0.6877853971727007,
+            "elapsed_time_sec": 5409.543565750122
+        },
+        "round_20": {
+            "loss_supervised": 0.2916906782482044,
+            "loss_unlabeled": 0.1830201681179694,
+            "loss_total": 0.4747108464619242,
+            "macro_f1": 0.16116154952467385,
+            "macro_auc": 0.6850339918584719,
+            "elapsed_time_sec": 5634.4030039310455
+        }
+    }
+}

@@ -1,0 +1,19 @@
+2026-02-09 14:51:27,601 INFO    MainThread:1405818 [wandb_setup.py:_flush():81] Current SDK version is 0.24.0
+2026-02-09 14:51:27,601 INFO    MainThread:1405818 [wandb_setup.py:_flush():81] Configure stats pid to 1405818
+2026-02-09 14:51:27,601 INFO    MainThread:1405818 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-02-09 14:51:27,601 INFO    MainThread:1405818 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/Research-Thrust-1-FedBalance-MetaLearning/wandb/run-20260209_145127-bybz6aur/logs/debug.log
+2026-02-09 14:51:27,601 INFO    MainThread:1405818 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/Research-Thrust-1-FedBalance-MetaLearning/wandb/run-20260209_145127-bybz6aur/logs/debug-internal.log
+2026-02-09 14:51:27,601 INFO    MainThread:1405818 [wandb_init.py:init():844] calling init triggers
+2026-02-09 14:51:27,601 INFO    MainThread:1405818 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'train_dir': '/mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/ucf-crime-dataset/Train', 'test_dir': '/mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/ucf-crime-dataset/Test', 'img_size': 224, 'batch_size': 64, 'lr': 0.0003, 'momentum': 0.9, 'weight_decay': 0.0001, 'rounds': 100, 'local_epochs': 1, 'num_clients': 5, 'num_classes': 14, 'seed': 12, 'num_workers': 2, 'freeze_backbone': False, 'normal_class_name': 'NormalVideos', 'normal_cap': 80000, 'use_wandb': True, 'wandb_project': 'ucfcrime-fedavg', 'wandb_entity': None, 'wandb_run_name': None, '_wandb': {}}
+2026-02-09 14:51:27,601 INFO    MainThread:1405818 [wandb_init.py:init():892] starting backend
+2026-02-09 14:51:27,852 INFO    MainThread:1405818 [wandb_init.py:init():895] sending inform_init request
+2026-02-09 14:51:27,857 INFO    MainThread:1405818 [wandb_init.py:init():903] backend started and connected
+2026-02-09 14:51:27,996 INFO    MainThread:1405818 [wandb_init.py:init():973] updated telemetry
+2026-02-09 14:51:27,998 INFO    MainThread:1405818 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-02-09 14:51:28,698 INFO    MainThread:1405818 [wandb_init.py:init():1044] starting run threads in backend
+2026-02-09 14:51:28,772 INFO    MainThread:1405818 [wandb_run.py:_console_start():2529] atexit reg
+2026-02-09 14:51:28,772 INFO    MainThread:1405818 [wandb_run.py:_redirect():2377] redirect: wrap_raw
+2026-02-09 14:51:28,772 INFO    MainThread:1405818 [wandb_run.py:_redirect():2446] Wrapping output streams.
+2026-02-09 14:51:28,772 INFO    MainThread:1405818 [wandb_run.py:_redirect():2469] Redirects installed.
+2026-02-09 14:51:28,776 INFO    MainThread:1405818 [wandb_init.py:init():1084] run started, returning control to user process

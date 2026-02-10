@@ -1,0 +1,13 @@
+wandb/
+wandb.log
+wandb.media/
+wandb.run/
+wandb.run.xml
+wandb.run.xml.gz
+wandb.run.xml.gz.part
+wandb.run.xml.gz.part.1
+wandb.run.xml.gz.part.2
+wandb.run.xml.gz.part.3
+wandb.run.xml.gz.part.4
+wandb.run.xml.gz.part.5
+wandb

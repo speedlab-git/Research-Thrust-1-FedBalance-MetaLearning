@@ -1,0 +1,5 @@
+
+
+
+
+We preprocess the crime‐reporting data by converting event‐level records into fixed temporal windows to estimate contextual crime risk rather than detect individual incidents. Specifically, all timestamps are floored into hourly windows and grouped by semantic location type (e.g., street, bar or tavern, apartment). For each (location, hour) window, we compute the total number of reported incidents, and derive temporal attributes such as hour of day, day of week, and month. To obtain supervision without requiring explicit “no‐crime” labels, we define relative risk labels based on historical density: for each location type, we compute a per‐location incident count threshold using a training‐only quantile (e.g., the top 30% of windows). Windows whose incident counts exceed this threshold are labeled high crime likelihood, while the remaining windows are labeled low crime likelihood. This formulation yields a binary classification task that captures spatiotemporal risk patterns from historical data and produces a probabilistic risk prior that can be fused with video‐ and text‐based crime predictions.

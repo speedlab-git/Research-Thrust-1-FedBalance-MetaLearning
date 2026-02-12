@@ -33,7 +33,7 @@ We recommend using **Anaconda** to manage dependencies.
 We use **Python 3.11** for training and evaluation.
 
 ```bash
-conda create -n FedCrime python=3.11 -y
+conda create -n FedCrime python=3.10 -y
 conda activate FedCrime
 pip install -r requirements.txt
 ```

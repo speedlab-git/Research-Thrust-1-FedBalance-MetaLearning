@@ -3,8 +3,6 @@
 # conda activate fixmatch-fl
 
 # --------- Paths ---------
-TRAIN_DIR="../input/ucf-crime-dataset/Train"
-TEST_DIR="../input/ucf-crime-dataset/Test"
 
 SCRIPT="fcrimnetBalance.py"
 OUT_JSON="results_fixmatch_fedavg_ucfcrime_withF1.json"
@@ -35,8 +33,8 @@ echo "Output: $OUT_JSON"
 echo "======================================"
 
 CUDA_VISIBLE_DEVICES=4 python fcrimnetBalance.py \
-  --train_dir /mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/ucf-crime-dataset/Train \
-  --test_dir  /mnt/beegfs/home/mdzarifhossa2025/mdhossa/NSF/ucf-crime-dataset/Test \
+  --train_dir ../NSF/ucf-crime-dataset/Train \
+  --test_dir  ../NSF/ucf-crime-dataset/Test \
   --num_clients $NUM_CLIENTS \
   --rounds $ROUNDS \
   --local_epochs $LOCAL_EPOCHS \

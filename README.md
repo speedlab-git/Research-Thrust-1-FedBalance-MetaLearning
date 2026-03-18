@@ -1,4 +1,4 @@
-# Multi-Modal Federated Crime Intelligence System  
+# Federated Meta-Learning for Cross-Network Crime Analytics in Interdependent Environments
 ## Research Thrust 1 & Research Thrust 2
 
 ---

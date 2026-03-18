@@ -23,8 +23,8 @@ All models are trained under a **Federated Learning (FL)** setting using ensurin
 
 - [Installation](#installation)
 - [Dataset](#dataset)
--Research Thrust 1  
--Research Thrust 2
+- Research Thrust 1  
+- Research Thrust 2
 
 
 ## Installation
@@ -161,5 +161,4 @@ bash ./bash/run_crimereport.sh
 
 
 
-## Late Fusion
 
